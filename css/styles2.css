@@ -1,0 +1,57 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --primary-color: #014963;
+    --primary-color-2: #EF8F00;
+}
+
+.nav-item{
+    color: var(--primary-color);
+    text-align: center;   
+}
+
+.nav.contact{
+    text-align: center;
+}
+
+nav{
+    color: #014963;
+}
+
+#hero{
+    background-image: url(/assets/img/coverrrr.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#hero h1 {
+    color: var(--primary-color);
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 150px;
+    padding-top: 150px;
+}
+
+#hero p {
+    color: var(--primary-color);
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+#hero button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-left: 350px;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 32px;
+    border-color: var(--primary-color-2);
+    background-color: #EF8F00;
+}
